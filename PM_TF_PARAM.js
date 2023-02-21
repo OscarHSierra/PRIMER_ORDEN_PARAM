@@ -28,7 +28,7 @@ function calcular(){
     if (k.value > 0 && a.value>0 && b.value>0)
     {
         Tao=1/ (a.value/ b.value);
-        Ganancia=k.value/b.value;
+        Ganancia=k.value/a.value;
         Ts=4*Tao;
         r.innerHTML="Los parámetros del sistema de primer orden son: "+"<br/>"+"Tao= "+ Tao.toFixed(3) + "<br/>"+"  Ganancia= "+ Ganancia.toFixed(3) + "<br/>"+"Tiempo de estabilizacion en segundos= "+ Ts.toFixed(3); 
     }
